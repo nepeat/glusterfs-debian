@@ -82,6 +82,7 @@ Depends: ${misc:Depends},
  psmisc,
  python3-prettytable,
  python3-requests
+Provides: libglusterfs0
 Conflicts: libglusterfs0,
  libglusterfs-dev
 Breaks: glusterfs-server (<< 3.4.0~qa5)
